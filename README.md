@@ -6,7 +6,7 @@ Nesse repositório eu apliquei meus estudos na pratica criando pequenos projetin
 
 
 
-**tabela:** utilizei  o **HTML** para criação de uma tabela e o CSS para estilizar de forma simples
+**TABELA:** utilizei  o **HTML** para criação de uma tabela e o CSS para estilizar de forma simples
 
 **QUADRO GRADIENTE:** Nesse  exemplo e mostrado uma  _tela_ onde eu usei o __CSS__ para  estil  um quadro com mistura de cores  _azul_ e _vermelho_
 
@@ -14,7 +14,7 @@ Nesse repositório eu apliquei meus estudos na pratica criando pequenos projetin
 
 
 **SOMA**  Nesse projeto usei o __JAVASCRIPT__ com __HTML__  e criei uma _tela_  que soma dois valores informados pelo usuarioa
-e o __JAVASCRIPT__ realiza a soma  e joga  no __HTML.__
+e o       __JAVASCRIPT__ realiza a soma  e joga  no __HTML.__
 
 
 
