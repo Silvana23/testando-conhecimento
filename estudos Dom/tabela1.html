@@ -1,0 +1,44 @@
+<head>
+    <title>codigo de amostra atravessando uma tabela html com js s interface dom</title>
+    <script>
+        function start() {
+            //  obtém a referência para o corpo
+            var mybody = document.getElementsByTagName("body")[0];
+
+            // cria elementos <table> e <tbody>
+            mytable = document.createElement("table");
+            mytablebody = document.createElement("tbody");
+
+            // criando todas as células
+            for (var j = 0; j < 3; j++) {
+                //  cria um elemento <tr>
+                mycurrent_row = document.createElement("tr");
+
+                for (var i = 0; i < 4; i++) {
+                    // cria um elemento <td>
+                    mycurrent_cell = document.createElement("td");
+                    //  cria um nó de texto
+                    currenttext = document.createTextNode("celula e linha " + j + ", col " + i);
+                    // acrescenta o nó de texto que criamos na celula <td>
+                    mycurrent_cell.appendChild(currenttext);
+                    //  acrescenta a célula <td> na linha <tr> <tr>
+                    mycurrent_row.appendChild(mycurrent_cell);
+                }
+                // acrescenta a linha <tr> em <tbody>
+                mytablebody.appendChild(mycurrent_row);
+            }
+
+            //  anexa <tbody> em <table>
+            mytable.appendChild(mytablebody);
+            // anexa <table> em <body>
+            mybody.appendChild(mytable);
+            // define o atributo border de mytable como 2;
+            mytable.setAttribute("border", "2");
+        }
+    </script>
+</head>
+
+<body onload="start()">
+</body>
+
+</html>

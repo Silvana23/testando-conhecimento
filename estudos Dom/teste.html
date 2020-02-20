@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //essa função cria um novo elemento h1 
+        //e adiciona texto a esse elemento 
+        //e em seguida adiciona h1 a arvore do documento
+
+        //rode essa função quando o documento for carregado
+        window.onload = function() {
+            //cria algums elementos em uma pagina html vazia
+            const heading = document.createElement("h1");
+            const heading_text = document.createTextNode("cabeçalho grande");
+            heading.appendChild(heading_text);
+            document.body.appendChild(heading);
+
+        }
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

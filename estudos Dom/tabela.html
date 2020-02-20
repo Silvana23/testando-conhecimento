@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        window.onload = function() {
+            const table = document.getElementById("table");
+            const tableAttrs = table.attributes; //no / elemento interface
+            for (let i = 0; i < tableAttrs.length; i++) {
+                //htmlTableElement interface: atributo de borda
+                if (tableAttrs[1].nodeName.toLowerCase() == "border")
+                    table.border = "1";
+            }
+
+            //htmltableelement interface:  resumo do atributo
+            table.sumary = "note: increased border";
+        }
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
